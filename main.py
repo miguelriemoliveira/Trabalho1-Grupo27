@@ -25,7 +25,10 @@ def main():
     c1 = (3,5)
     c2 = (7,1)
     c3 = (3,4)
-    addComplex(c1, c2)
+    c4 = addComplex(c1, c2)
+    print(c4)
+
+
 
 if __name__ == '__main__':
     main()
